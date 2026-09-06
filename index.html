@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Muthu's Pitch cricket coaching academy plans and support.">
+	<title>Muthu's Pitch | Cricket Coaching Academy</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#top" aria-label="Muthu's Pitch home">
+			<span class="brand-ball" aria-hidden="true"></span>
+			<span>Muthu's <strong>Pitch</strong></span>
+		</a>
+		<nav class="site-nav" aria-label="Main navigation">
+			<a href="#plans">Plans</a>
+			<a href="#support">Support</a>
+			<a class="nav-cta" href="#query">Ask a question <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main id="top">
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="kicker"><span class="bat-icon" aria-hidden="true">🏏</span> Cricket coaching academy</p>
+				<h1>Build your game.<br><em>Own the pitch.</em></h1>
+				<p class="hero-text">Structured coaching for cricketers who want sharper skills, stronger fitness, and confidence under pressure.</p>
+				<div class="hero-actions">
+					<a class="button button-primary" href="#plans">View coaching plans <span aria-hidden="true">↓</span></a>
+					<a class="text-link" href="https://johnny-intern.github.io/muthu-s-pitch/" target="_blank" rel="noopener noreferrer">Official academy website <span aria-hidden="true">↗</span></a>
+				</div>
+			</div>
+			<div class="hero-art" aria-label="Cricket ball illustration" role="img">
+				<div class="pitch-mark pitch-mark-one"></div>
+				<div class="pitch-mark pitch-mark-two"></div>
+				<div class="cricket-ball"><span></span></div>
+				<p class="art-note">Train with intent<br><strong>Play with purpose.</strong></p>
+			</div>
+		</section>
+
+		<section class="plans-section" id="plans" aria-labelledby="plans-title">
+			<div class="section-heading">
+				<div>
+					<p class="kicker">Choose your season</p>
+					<h2 id="plans-title">Coaching plans</h2>
+				</div>
+				<p>One clear commitment. A better version of your game.</p>
+			</div>
+
+			<div class="plans-grid">
+				<article class="plan-card">
+					<div class="plan-topline"><span>01</span><span class="plan-icon" aria-hidden="true">◉</span></div>
+					<h3>Foundation</h3>
+					<p class="plan-detail">1 month of focused fundamentals</p>
+					<p class="price">₹12,000 <small>/ month</small></p>
+					<ul>
+						<li>Technique assessment</li>
+						<li>Batting and bowling basics</li>
+						<li>Weekly progress review</li>
+					</ul>
+					<a class="button button-outline" href="#query">Enquire now <span aria-hidden="true">↗</span></a>
+				</article>
+
+				<article class="plan-card">
+					<div class="plan-topline"><span>02</span><span class="plan-icon" aria-hidden="true">✦</span></div>
+					<h3>Match Ready</h3>
+					<p class="plan-detail">3 months to sharpen your edge</p>
+					<p class="price">₹30,000 <small>/ 3 months</small></p>
+					<ul>
+						<li>Complete skill development</li>
+						<li>Match simulation sessions</li>
+						<li>Fitness and agility training</li>
+					</ul>
+					<a class="button button-outline" href="#query">Enquire now <span aria-hidden="true">↗</span></a>
+				</article>
+
+				<article class="plan-card">
+					<div class="plan-topline"><span>03</span><span class="plan-icon" aria-hidden="true">◆</span></div>
+					<h3>Performance</h3>
+					<p class="plan-detail">6 months for serious players</p>
+					<p class="price">₹50,000 <small>/ 6 months</small></p>
+					<ul>
+						<li>Personalised performance plan</li>
+						<li>Advanced match preparation</li>
+						<li>Season-long mentorship</li>
+					</ul>
+					<a class="button button-outline" href="#query">Enquire now <span aria-hidden="true">↗</span></a>
+				</article>
+			</div>
+		</section>
+
+		<section class="support-strip" id="support" aria-labelledby="support-title">
+			<span class="support-icon" aria-hidden="true">☎</span>
+			<div>
+				<p class="kicker">Need a hand?</p>
+				<h2 id="support-title">Our support team is on your side.</h2>
+			</div>
+			<a class="text-link" href="mailto:support@muthuspitch.com">support@muthuspitch.com <span aria-hidden="true">↗</span></a>
+		</section>
+	</main>
+
+	<footer class="site-footer" id="query">
+		<div class="footer-intro">
+			<a class="brand" href="#top"><span class="brand-ball" aria-hidden="true"></span><span>Muthu's <strong>Pitch</strong></span></a>
+			<p>Questions about a plan, training schedule, or your next step? Send us a note.</p>
+			<a class="footer-link" href="https://muthuspitch.com" target="_blank" rel="noopener noreferrer">Visit official academy website ↗</a>
+		</div>
+		<form class="query-form" id="query-form">
+			<label for="name">Your name</label>
+			<input id="name" name="name" type="text" placeholder="e.g. Arjun Rao" required>
+			<label for="email">Email address</label>
+			<input id="email" name="email" type="email" placeholder="you@example.com" required>
+			<label for="message">Your query</label>
+			<textarea id="message" name="message" rows="3" placeholder="Tell us how we can help..." required></textarea>
+			<button class="button button-primary" type="submit">Send query <span aria-hidden="true">↗</span></button>
+			<p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+		</form>
+	</footer>
+	<p class="copyright">© 2026 Muthu's Pitch Cricket Coaching Academy</p>
+
+	<script src="scrpit.js"></script>
+</body>
+</html>
